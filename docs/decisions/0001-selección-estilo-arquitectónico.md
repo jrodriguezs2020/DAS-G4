@@ -21,6 +21,10 @@ En el contexto del problema hemos optado por una arquitectura por 4 capas ya que
 
 Chosen option: "0001-1-Estilo-Por-Capas", because Permite separar los distintos componentes en capas y permite el uso de otros patrones de diseño
 
+### Negative Consequences
+
+* Al cambiar una capa se afecta a otras
+
 ## Pros and Cons of the Options
 
 ### 0001-1-Estilo-Por-Capas
