@@ -1,30 +1,31 @@
-# Modularizar reparto y rutas
+# Modularizar-Reparto-Y-Rutas
 
 * Status: proposed
 * Date: 2023-10-26
 
 ## Context and Problem Statement
 
-En el contexto del problema hemos optado por hacer un paquete para lo relacionado con el reparto y rutas, ya que así se separan los algoritmos de optimización y se encapsulan, facilitando así futuras iteraciones y la decisión de como gestionar la selección de los dichos algoritmos.
+Al igual que los pedidos, hemos optado por hacer un paquete para juntar todo lo relacionado con el reparto y rutas, de esta forma teniendo todo más recogido facilitando las futuras decisiones.
 
 ## Decision Drivers
 
-* RF4: Módulo reparto y rutas
+* RF04: Módulo reparto y rutas.
 
 ## Considered Options
 
-* Paquete Reparto
+* 0003-1-Paquete Reparto y Rutas
 
 ## Decision Outcome
 
-Chosen option: "Paquete Reparto", because comes out best.
+Chosen option: "0003-1-Paquete Reparto y Rutas", because Facilitará la implementación de las futuras decisiones y nos permitirá reunir en el mismo paquete todo lo relacionado con los repartos y las rutas.
 
 ## Pros and Cons of the Options
 
-### Paquete Reparto
+### 0003-1-Paquete Reparto y Rutas
 
-Hacer un paquete que contenga lo necesario para gestionar los repartos.
+Hacer un paquete que contenga lo necesario para gestionar los repartos y las rutas.
 
-* Good, because Es escalable
-* Good, because Consigue más modularidad
-* Bad, because Si se hacen muchos paquetes puede empeorar la visibilidad del diseño
+* Good, because Es escalable.
+* Good, because Consigue más modularidad.
+* Good, because Facilitará el trabajo futuro.
+* Bad, because Si se hacen muchos paquetes puede empeorar la visibilidad del diseño.
