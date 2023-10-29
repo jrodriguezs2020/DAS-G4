@@ -1,11 +1,11 @@
 # Modularizar-Pedidos
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-10-26
 
 ## Context and Problem Statement
 
-En el contexto del problema hemos optado por hacer un paquete englobando todo lo relacionado con los pedidos ya que nos facilitará el trabajo para futuras iteraciones y reunirá las clases que tengan el mismo objetivo.
+Queremos englobar todas las clases relacionadas con los pedidos para agrupar su funcionalidad.
 
 ## Decision Drivers
 
@@ -14,17 +14,21 @@ En el contexto del problema hemos optado por hacer un paquete englobando todo lo
 
 ## Considered Options
 
-* 0002-1-Paquete Pedidos
+* 0002-1-Módulo de Pedidos
 
 ## Decision Outcome
 
-Chosen option: "0002-1-Paquete Pedidos", because Facilitará la implementación de las futuras decisiones y nos permitirá reunir en el mismo paquete todo lo relacionado con los pedidos.
+Chosen option: "0002-1-Módulo de Pedidos", because Facilitará la implementación de las futuras decisiones y nos permitirá reunir en el mismo módulo todo lo relacionado con los pedidos.
+
+### Positive Consequences
+
+* Este módulo actuará como intermediario entre el cliente y el gestor de pedidos.
 
 ## Pros and Cons of the Options
 
-### 0002-1-Paquete Pedidos
+### 0002-1-Módulo de Pedidos
 
-Hacer un paquete que contenga la clase GestorPedidos y Pedidos.
+Hacer un módulo que contenga la clase Pedidos.
 
 * Good, because Es escalable.
 * Good, because Consigue más modularidad.
