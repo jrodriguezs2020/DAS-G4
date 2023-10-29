@@ -1,6 +1,6 @@
 # Selección-De-La-Ruta-Óptima
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-10-26
 
 ## Context and Problem Statement
@@ -17,7 +17,7 @@ El sistema cuenta con dos algoritmos de optimización para realizar el reparto s
 
 ## Decision Outcome
 
-Chosen option: "0003-1-Patrón Strategy", because Permite seleccionar el algoritmo más óptimo de una forma sencilla y eficiente.
+Chosen option: "0003-1-Patrón Strategy", because Permite seleccionar el algoritmo más óptimo de una forma sencilla y eficiente mediante una interfaz de la cual heredan los distintos algoritmos.
 
 ## Pros and Cons of the Options
 

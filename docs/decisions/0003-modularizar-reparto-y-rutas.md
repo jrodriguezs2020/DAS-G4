@@ -5,7 +5,7 @@
 
 ## Context and Problem Statement
 
-Al igual que los pedidos, hemos optado por hacer un paquete para juntar todo lo relacionado con el reparto y rutas, de esta forma teniendo todo más recogido facilitando las futuras decisiones.
+Queremos agrupar en un paquete todas las clases que se utilizan a la hora de gestionar el reparto y las rutas.
 
 ## Decision Drivers
 
@@ -13,17 +13,17 @@ Al igual que los pedidos, hemos optado por hacer un paquete para juntar todo lo 
 
 ## Considered Options
 
-* 0003-1-Paquete Reparto y Rutas
+* 0003-1-Módulo Reparto y Rutas
 
 ## Decision Outcome
 
-Chosen option: "0003-1-Paquete Reparto y Rutas", because Facilitará la implementación de las futuras decisiones y nos permitirá reunir en el mismo paquete todo lo relacionado con los repartos y las rutas.
+Chosen option: "0003-1-Módulo Reparto y Rutas", because Facilitará la implementación de las futuras decisiones y nos permitirá reunir en el mismo paquete todo lo relacionado con los repartos y las rutas.
 
 ## Pros and Cons of the Options
 
-### 0003-1-Paquete Reparto y Rutas
+### 0003-1-Módulo Reparto y Rutas
 
-Hacer un paquete que contenga lo necesario para gestionar los repartos y las rutas.
+Hacer un módulo que contenga lo necesario para gestionar los repartos y las rutas.
 
 * Good, because Es escalable.
 * Good, because Consigue más modularidad.
