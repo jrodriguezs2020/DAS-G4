@@ -5,7 +5,7 @@
 
 ## Context and Problem Statement
 
-En el contexto del problema hemos optado por una arquitectura por 4 capas ya que consideramos que es la forma óptima de separar los distintos componentes del sistema, además esta solución lo hace escalable y nos permite implementar el resto de los problemas aplicando patrones de diseño.
+En primer lugar debemos decidir cual es el estilo arquitectónico más optimo para realizar el diseño del problema dado.
 
 ## Decision Drivers
 
@@ -19,7 +19,7 @@ En el contexto del problema hemos optado por una arquitectura por 4 capas ya que
 
 ## Decision Outcome
 
-Chosen option: "0001-1-Estilo-Por-Capas", because Permite separar los distintos componentes en capas y permite el uso de otros patrones de diseño
+Chosen option: "0001-1-Estilo-Por-Capas", because Permite separar los distintos componentes en capas de una forma óptima y nos permite implementar el resto de los problemas aplicando patrones de diseño.
 
 ### Negative Consequences
 
