@@ -18,7 +18,17 @@ El módulo incidencias debe reportar cualquier tipo de inidencia a los gestores 
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0009-2-Conectar el módulo incidencias con el gestor pedidos.", because se pide de forma explicita
+
+### Positive Consequences
+
+* Relegamos todas las comunicaciones de logica de servicios a gestor pedidos.
+* Más escalable.
+
+### Negative Consequences
+
+* GestorPedidos se vuelve más complejo.
+* Involucramos más clases de forma innecesaria.
 
 ## Pros and Cons of the Options
 
