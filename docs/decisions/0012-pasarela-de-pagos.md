@@ -13,20 +13,19 @@ Hay que decidir que pasarela externa vamos a usar para los pagos
 
 ## Considered Options
 
-* Redys Api Rest
+* Redsys Api Rest
 
 ## Decision Outcome
 
-Chosen option: "Redys Api Rest", because Es compatible con Java
+Chosen option: "Redsys Api Rest", because Es compatible con Java
 
 ### Positive Consequences
 
 * Se hacen los pagos de forma externa
-* 
 
 ## Pros and Cons of the Options
 
-### Redys Api Rest
+### Redsys Api Rest
 
 Pasarela de pagos web
 

@@ -18,7 +18,7 @@ Queremos conseguir hacer estadisticas de las rutas y los pedidos.
 
 ## Decision Outcome
 
-Chosen option: "Apache Common Maths", because no vamos a crearlo de cero si ya está creado
+Chosen option: "Apache Common Maths", because nos ahorramos diseñarlo
 
 ### Positive Consequences
 
