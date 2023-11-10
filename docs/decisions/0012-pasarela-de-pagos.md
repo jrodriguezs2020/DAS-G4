@@ -1,33 +1,35 @@
-# Pasarela de pagos
+# Pasarela-De-Pagos
 
 * Status: proposed
 * Date: 2023-11-07
 
 ## Context and Problem Statement
 
-Hay que decidir que pasarela externa vamos a usar para los pagos
+Necesitamos escoger el componente externo que realizará los pagos y se conectará con la pasarela de pagos.
 
 ## Decision Drivers
 
-* RF07-1:Pasarela externa
+* RF07.1: Pasarela externa
 
 ## Considered Options
 
-* Redsys Api Rest
+* 0012-1-Redsys Api Rest
 
 ## Decision Outcome
 
-Chosen option: "Redsys Api Rest", because Es compatible con Java
+Chosen option: "0012-1-Redsys Api Rest", because Con este componente podemos diseñar de una forma sencilla de realizar los pagos puesto que es compatible con Java.
 
 ### Positive Consequences
 
-* Se hacen los pagos de forma externa
+* Compatible con Java.
+* Fácil de diseñar.
 
 ## Pros and Cons of the Options
 
-### Redsys Api Rest
+### 0012-1-Redsys Api Rest
 
-Pasarela de pagos web
+Redsys es una de las pasarelas de pagos web más utilizadas permitiendo pagar mediante tarjeta de crédito y débito.
 
-* Good, because Es compatible con Java
-* Bad, because Necesitas  inscribirte para poder usarlo
+* Good, because Es compatible con Java.
+* Good, because Fiable y probada.
+* Bad, because Es necesario inscribirse para poder usarlo.

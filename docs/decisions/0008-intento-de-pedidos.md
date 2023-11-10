@@ -1,6 +1,6 @@
 # Intento-De-Pedidos
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-10-31
 
 ## Context and Problem Statement

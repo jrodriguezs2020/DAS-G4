@@ -1,6 +1,6 @@
 # Tipo-De-Base-De-Datos
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-10-26
 
 ## Context and Problem Statement

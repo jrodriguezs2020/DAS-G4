@@ -1,6 +1,6 @@
 # Control-Incidencias
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-11-05
 
 ## Context and Problem Statement

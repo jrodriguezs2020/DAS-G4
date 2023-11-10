@@ -1,11 +1,11 @@
-# Microservicios
+# Ejecución-Microservicios
 
 * Status: proposed
 * Date: 2023-11-09
 
 ## Context and Problem Statement
 
-Plataforma o software donde desplegar los microservicios.
+Necesitamos ejecutar los microervicios e indicarlo en el diseño del sistema.
 
 ## Decision Drivers
 
@@ -13,25 +13,32 @@ Plataforma o software donde desplegar los microservicios.
 
 ## Considered Options
 
-* Azure Functions
-* Lambda AWS
+* 0013-1-Componente Microsoft Azure Functions
+* 0013-2-Insertar capa de microservicios
 
 ## Decision Outcome
 
-Chosen option: "Azure Functions", because nos ahorramos diseñarlo
+Chosen option: "0013-1-Componente Microsoft Azure Functions", because Tanto el diseño como la implementación se simplifican, además que al usar esta plataforma los problemas relacionados con la escalabilidad y optimización se solucionan al encargarse el propio software de ello.
+
+### Positive Consequences
+
+* Mayor escalabilidad y optimización.
 
 ## Pros and Cons of the Options
 
-### Azure Functions
+### 0013-1-Componente Microsoft Azure Functions
 
-Plataforma externa de windows
+Infraestructura externa de Microsoft que permite ejecutar partes del código en la nube.
 
-* Good, because Más información para desarrolladores y menos coodependencia
-* Good, because No tenemos que implementar el software
+* Good, because Es una de las plataformas de "Serverless computing" más usadas.
+* Good, because No es necesario implementar el software.
+* Good, because Compatible con Java.
+* Bad, because Posible problema de alta latencia de red en caso de tener una alta demanda.
 
-### Lambda AWS
+### 0013-2-Insertar capa de microservicios
 
-Plataforma externa de amazon
+Incluir en el siseño un middleware que permita ejecutar los microservicios.
 
-* Good, because No tenemos que implementar el software
-* Bad, because Más información para desarrolladores y menos coodependencia
+* Good, because Mayor claridad que estamos diseñando un sistema basado en microservicios.
+* Bad, because Más complejo de diseñar e implementar.
+* Bad, because Diseño UML con más clases y relaciones.
