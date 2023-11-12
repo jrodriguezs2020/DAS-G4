@@ -1,6 +1,6 @@
 # Creación-Gestor-BBDD
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-11-12
 
 ## Context and Problem Statement

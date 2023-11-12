@@ -1,11 +1,11 @@
 # Creación-Gestor-Pedidos
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-11-12
 
 ## Context and Problem Statement
 
-Necesitamos que solo se cree un GestorPedidos.
+Necesitamos que solo se cree una instancia de GestorPedidos.
 
 ## Decision Drivers
 

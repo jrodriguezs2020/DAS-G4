@@ -1,6 +1,6 @@
 # Pasarela-De-Pagos
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-11-07
 
 ## Context and Problem Statement
@@ -9,7 +9,7 @@ Necesitamos escoger el componente externo que realizará los pagos y se conectar
 
 ## Decision Drivers
 
-* RF07.1: Pasarela externa
+* RF07.1: Pasarela externa.
 
 ## Considered Options
 
@@ -17,7 +17,7 @@ Necesitamos escoger el componente externo que realizará los pagos y se conectar
 
 ## Decision Outcome
 
-Chosen option: "0012-1-Redsys Api Rest", because Con este componente podemos diseñar de una forma sencilla de realizar los pagos puesto que es compatible con Java.
+Chosen option: "0012-1-Redsys Api Rest", because Con este componente podemos diseñar de una forma sencilla la realización de los pagos puesto que es compatible con Java.
 
 ### Positive Consequences
 

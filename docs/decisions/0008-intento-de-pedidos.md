@@ -5,11 +5,11 @@
 
 ## Context and Problem Statement
 
-Necesitamos que tras un número limitado de intentos al realizar el pedido se bloquee.
+Necesitamos que tras un número limitado de intentos al realizar el pedido este se bloquee.
 
 ## Decision Drivers
 
-* RF3.3-Contabilizar número de intentos de realizar pedidos
+* RF3.3-Contabilizar número de intentos de realizar pedidos.
 
 ## Considered Options
 

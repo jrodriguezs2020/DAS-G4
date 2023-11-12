@@ -5,7 +5,7 @@
 
 ## Context and Problem Statement
 
-El módulo incidencias debe reportar cualquier tipo de inidencia a los gestores de las rutas.
+El módulo incidencias debe reportar cualquier tipo de incidencia a los gestores de las rutas.
 
 ## Decision Drivers
 
@@ -18,7 +18,7 @@ El módulo incidencias debe reportar cualquier tipo de inidencia a los gestores 
 
 ## Decision Outcome
 
-Chosen option: "0009-2-Conectar el módulo incidencias con el gestor pedidos.", because se pide de forma explicita
+Chosen option: "0009-2-Conectar el módulo incidencias con el gestor pedidos.", because En el enunciado se pide de forma explícita.
 
 ### Positive Consequences
 
@@ -42,8 +42,7 @@ Puesto que las incidencias ocurren a la hora del reparto, las notificaciones se 
 
 ### 0009-2-Conectar el módulo incidencias con el gestor pedidos.
 
-El enunciado del problema describe que la clase GestorPedidos hace de intermediario entre los clientes, pedidos, el reparto y las
-incidencias comunicando dichas funcionalidades.
+El enunciado del problema describe que la clase GestorPedidos hace de intermediario entre los clientes, pedidos, el reparto y las incidencias comunicando dichas funcionalidades.
 
 * Good, because Solución más fiel al enunciado.
 * Good, because Evita el problema de comunicación debido a que esta clase actúa como intermediario en todo el sistema.

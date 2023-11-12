@@ -9,7 +9,7 @@ El sistema cuenta con dos algoritmos de optimización para realizar el reparto s
 
 ## Decision Drivers
 
-* RF04: Módulo reparto y rutas
+* RF04: Módulo reparto y rutas.
 
 ## Considered Options
 
@@ -26,6 +26,6 @@ Chosen option: "0003-1-Patrón Strategy", because Permite seleccionar el algorit
 Patrón de diseño que permite definir algoritmos colocando cada uno en una clase diferente pudiendo alternar de esta forma el algoritmo que se desee usar.
 
 * Good, because Te permite implementar varios algoritmos.
-* Good, because Se utiliza el algoritmo que mejor convenga al sistema
-* Good, because Fácil de escalar en case de que se quieran añadir más algoritmos
+* Good, because Se utiliza el algoritmo que mejor convenga al sistema.
+* Good, because Fácil de escalar en case de que se quieran añadir más algoritmos.
 * Bad, because Cada algoritmo es completamente independiente por lo que en caso de que uno necesitara información del otro no podrían conseguirla.

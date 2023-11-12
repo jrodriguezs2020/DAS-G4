@@ -18,11 +18,11 @@ Necesitamos notificar el tipo de incidencia de una manera eficiente.
 
 ## Decision Outcome
 
-Chosen option: "0010-1-Patrón publish and subscribe", because No necesita ver al que manda la notificación, gestor pedidos lo organiza.
+Chosen option: "0010-1-Patrón publish and subscribe", because No necesita ver al que manda la notificación, la clase GestorPedidos lo organiza.
 
 ### Positive Consequences
 
-* No se llama a gestor pedidos, permitiendole hacer otras cosas antes de atender la cola
+* No se llama a gestor pedidos, permitiendole hacer otras acciones antes de atender la cola.
 
 ### Negative Consequences
 
@@ -35,7 +35,6 @@ Chosen option: "0010-1-Patrón publish and subscribe", because No necesita ver a
 Usar el patron publish and subscribe para notificar las incidencias.
 
 * Good, because No depende de quien reciba las notificaciones.
-* Good, because Manda la incidencia a una cola a que lo escuche quien sea.
 * Bad, because No manda notificaciones especificas para cada clase.
 
 ### 0010-2-Patrón observer

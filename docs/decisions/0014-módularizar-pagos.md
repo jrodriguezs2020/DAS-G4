@@ -1,6 +1,6 @@
 # Módularizar-Pagos
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-11-12
 
 ## Context and Problem Statement
@@ -9,7 +9,7 @@ Queremos englobar todas las clases relacionadas con los pagos.
 
 ## Decision Drivers
 
-* RF07: Módulo de pagos
+* RF07: Módulo de pagos.
 
 ## Considered Options
 

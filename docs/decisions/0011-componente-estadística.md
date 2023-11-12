@@ -1,6 +1,6 @@
 # Componente-Estadística
 
-* Status: proposed
+* Status: accepted
 * Date: 2023-11-07
 
 ## Context and Problem Statement
@@ -38,7 +38,7 @@ Apache Common Maths es una librería que permite realizar estadísticas.
 * Good, because Compatible con Java.
 * Good, because Autocontenida.
 * Good, because Ligera.
-* Bad, because Requiere instalarse tambien Apache Maven
+* Bad, because Requiere instalarse tambien Apache Maven.
 
 ### 0011-2-Implementar una clase
 

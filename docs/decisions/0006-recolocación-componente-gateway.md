@@ -9,7 +9,7 @@ El componente gateway no debería situarse en la capa de presentación puesto qu
 
 ## Decision Drivers
 
-* RF08: Componente Gateway
+* RF08: Componente Gateway.
 
 ## Considered Options
 
@@ -18,7 +18,7 @@ El componente gateway no debería situarse en la capa de presentación puesto qu
 
 ## Decision Outcome
 
-Chosen option: "0006-2-Introducirlo entre la capa de presentación y la capa de lógica de negocio", because Creemos que de esta forma el UML queda más limpio y claro
+Chosen option: "0006-2-Introducirlo entre la capa de presentación y la capa de lógica de negocio", because Creemos que de esta forma el UML queda más limpio y claro.
 
 ### Positive Consequences
 
